@@ -1,0 +1,16 @@
+.m-footer {
+  font-size: 1em;
+  border: 3em;
+  padding-top: 0.5em;
+}
+
+.m-footer-image {
+  float:right;
+  padding: 1em;
+  width: 5em;
+}
+
+.m-footer-location {
+  display: inline-block;
+  padding-left: 1em;
+}
