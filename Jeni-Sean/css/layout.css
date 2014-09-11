@@ -1,12 +1,4 @@
 /* SMACSS - LAYOUT */
-/*main {
-  float: left;
-}
-
-.wrapper {
-  margin: 0 auto;
-}*/
-
 .l-header {
   /*Styling for unique h1 and p*/
   font-family: Arial, sans-serif;

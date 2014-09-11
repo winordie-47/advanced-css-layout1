@@ -1,9 +1,8 @@
 /* MODULES */
 article {
   /*Styling that applies to ALL articles regardless of size*/
-  /*float:left;*/
-  width:340px;
-  height:340px;
+  width: 340px;
+  height: 340px;
   border:2px solid grey;
 }
 
