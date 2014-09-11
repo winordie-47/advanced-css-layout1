@@ -72,6 +72,9 @@ h1 {
 h1, p {
   font-family: 'artifika', serif;
 }
+html{
+  font-family:'Aller', sans-serif;
+}
 
 /* ==========================================================================
    Colors
@@ -141,11 +144,6 @@ ul {
 .alpha{margin-left:0px;}
 .omega{margin-right:0px;}
 
-.container{
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-}
 
 
 
