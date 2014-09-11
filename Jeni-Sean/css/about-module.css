@@ -1,0 +1,25 @@
+/* MODULES */
+article {
+  /*Styling that applies to ALL articles regardless of size*/
+  /*float:left;*/
+  width:340px;
+  height:340px;
+  border:2px solid grey;
+}
+
+.article__main {
+  float:left;
+  margin-left:15%;
+  margin-bottom: 2em;
+}
+
+.article__sub {
+  width:220px;
+  height:220px;
+  margin: 5%;
+}
+
+.has-accent {
+  border: 1px dashed pink;
+}
+

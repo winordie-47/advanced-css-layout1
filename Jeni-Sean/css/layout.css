@@ -1,0 +1,44 @@
+/* SMACSS - LAYOUT */
+/*main {
+  float: left;
+}
+
+.wrapper {
+  margin: 0 auto;
+}*/
+
+.l-header {
+  /*Styling for unique h1 and p*/
+  font-family: Arial, sans-serif;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 480px) {
+.l-header {
+  font-size: 2em;
+  }
+}
+.l-nav {
+  /*Styling for nav ul*/
+  font-size:2em;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.nav {
+  padding: 10px 15px;
+  display: inline;
+}
+
+.flex-container {
+  display:flex;
+  width: 80%;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  margin: 10px;
+  width: 20%;
+}
+

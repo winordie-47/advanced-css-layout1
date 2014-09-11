@@ -1,0 +1,31 @@
+/* Universal settings*/
+/*html {
+  width: 960px;
+  margin: 0 auto;
+}*/
+
+a {
+  font-weight:bold;
+  text-decoration:none;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Grundschrift';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+}
+
+.hidden {
+  display: none;
+}
+
