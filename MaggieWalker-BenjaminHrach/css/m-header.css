@@ -2,7 +2,7 @@
 .page-heading {
   text-align: center;
   font-size: 1.4em;
-  padding-top:1em;
+  padding-top: 0.5em;
   text-transform: uppercase;
 }
 
@@ -15,7 +15,6 @@
 }
 
 .m-navigation-list--link {
-  /*padding: 0.2em;*/
   text-decoration: none;
 }
 

@@ -9,10 +9,9 @@ Column width: 65px
 Gutter : 20px
 */
 
-
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10,
 .grid_11, .grid_12 {
-  width:100%;
+  width: 100%;
   margin: 0 2% 1% 0;
   float: left;
   display: block;

@@ -50,12 +50,9 @@ Typography
 }
 
 h1 {
+  font-family: 'artifika', serif;
   font-size: 2em;
   margin: 0.67em 0;
-}
-
-h1, p {
-  font-family: 'artifika', serif;
 }
 
 html {
@@ -85,6 +82,3 @@ Lists
 ul {
   list-style: none;
 }
-
-
-
