@@ -1,11 +1,8 @@
 /* MODULES */
 article {
-<<<<<<< HEAD
   /*Styling that applies to ALL articles regardless of size*/
   width: 340px;
   height: 340px;
-=======
->>>>>>> 93ec7cf2e469f35de66128a97b4714638de4d54a
   border:2px solid grey;
 }
 
