@@ -1,16 +1,20 @@
 /* MODULES */
 article {
+<<<<<<< HEAD
   /*Styling that applies to ALL articles regardless of size*/
   width: 340px;
   height: 340px;
+=======
+>>>>>>> 93ec7cf2e469f35de66128a97b4714638de4d54a
   border:2px solid grey;
 }
 
 .article__main {
-  float:left;
   margin-left:15%;
   margin-bottom: 2em;
 }
+
+/* Defined width/height of article__sub is to serve as a place holder */
 
 .article__sub {
   width:220px;

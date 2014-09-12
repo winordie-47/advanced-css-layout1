@@ -1,4 +1,9 @@
 /* Universal settings*/
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 93ec7cf2e469f35de66128a97b4714638de4d54a
 a {
   font-weight:bold;
   text-decoration:none;
@@ -35,4 +40,5 @@ p {
 .hidden {
   display: none;
 }
+
 
