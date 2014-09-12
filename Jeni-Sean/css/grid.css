@@ -1,8 +1,8 @@
 /*  SECTIONS  */
 .section {
   clear: both;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 /*  COLUMN SETUP  */
@@ -33,7 +33,7 @@
 
 /*  GRID OF TWELVE AT MORE THAN 640 PIXELS  */
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 30em) {
   .col {
     display: inline;
     /*float:left;*/
@@ -41,13 +41,13 @@
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 30em) {
   .col:first-child {
     margin-left: 0;
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 30em) {
   .span_12_of_12 {
     width: 100%;
   }

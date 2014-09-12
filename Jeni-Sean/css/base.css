@@ -8,7 +8,7 @@ a {
 h1 {
   font-size: 2em;
 }
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 30em) {
   h1 {font-size: 3em;
   }
 }
@@ -24,7 +24,7 @@ p {
   font-size: 1em;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 30em) {
   p {font-family: 'Grundschrift';
   font-weight: normal;
   font-style: normal;

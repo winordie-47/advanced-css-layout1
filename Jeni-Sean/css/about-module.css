@@ -1,7 +1,7 @@
 /* MODULES */
 article {
   /*Styling that applies to ALL articles regardless of size*/
-  border:2px solid grey;
+  border:.2em solid grey;
 }
 
 .article__main {
@@ -9,7 +9,7 @@ article {
   padding: .5em;
 }
 
-/* Defined width/height of article__sub is to serve as a place holder */
+/* Defined width/height of article__sub to serve as a place holder */
 
 .article__sub {
   margin: 1%;
@@ -19,6 +19,11 @@ article {
   border: 1px dashed pink;
 }
 
+.profile-pic {
+  display: block;
+  width: 75%;
+  margin: 1em auto;
+}
 
 
 
