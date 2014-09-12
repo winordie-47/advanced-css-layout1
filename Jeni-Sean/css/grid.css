@@ -8,14 +8,8 @@
 /*  COLUMN SETUP  */
 
 .col {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 1.6%;
+    margin: 1% 0 1% 0%;
 }
-.col:first-child {
-  margin-left: 0;
-}
-
 
 /*  GROUPING  */
 
@@ -31,45 +25,56 @@
     zoom:1; /* For IE 6/7 */
 }
 
-/*  GRID OF TWELVE  */
+/*  FULL WIDTH AT LESS THAN 640 PIXELS */
 
-.span_12_of_12 {
-  width: 100%;
-}
-.span_10_of_12 {
-  width: 83%;
-}
-.span_9_of_12 {
-  width: 75%;
-}
-.span_8_of_12 {
-  width: 66.1%;
-}
-.spand_6_of_12 {
-  width: 50%;
-}
-.span_4_of_12 {
-  width: 32.2%;
-}
-.span_3_of_12 {
-  width: 25%;
-}
-.span_2_of_12 {
-  width: 16.6%;
-}
-.span_1_of_12 {
-  width: 8.3%;
+.span_12_of_12, .span_10_of_12, .span_9_of_12, .span_8_of_12, .span_6_of_12, .span_4_of_12, .span_3_of_12, .span_2_of_12, .span_1_of_12 {
+   width: 100%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GRID OF TWELVE AT MORE THAN 640 PIXELS  */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 640px) {
   .col {
-    margin: 1% 0 1% 0%;
+    display: inline;
+    /*float:left;*/
+    margin: 1% 0 1% 1.6%;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .span_12_of_12, .span_10_of_12, .span_9_of_12, .span_8_of_12, .span_6_of_12, .span_4_of_12, .span_3_of_12, .span_2_of_12, .span_1_of_12 {
+@media only screen and (min-width: 640px) {
+  .col:first-child {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .span_12_of_12 {
     width: 100%;
   }
+  .span_10_of_12 {
+    width: 83%;
+  }
+  .span_9_of_12 {
+    width: 75%;
+  }
+  .span_8_of_12 {
+    width: 66.1%;
+  }
+  .spand_6_of_12 {
+    width: 50%;
+  }
+  .span_4_of_12 {
+    width: 32.2%;
+  }
+  .span_3_of_12 {
+    width: 25%;
+  }
+  .span_2_of_12 {
+    width: 16.6%;
+  }
+  .span_1_of_12 {
+    width: 8.3%;
+  }
+}
+
+

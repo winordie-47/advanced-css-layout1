@@ -1,25 +1,24 @@
 /* MODULES */
 article {
   /*Styling that applies to ALL articles regardless of size*/
-  width: 340px;
-  height: 340px;
   border:2px solid grey;
 }
 
 .article__main {
-  margin-left:15%;
-  margin-bottom: 2em;
+  margin: 1em;
+  padding: .5em;
 }
 
 /* Defined width/height of article__sub is to serve as a place holder */
 
 .article__sub {
-  width:220px;
-  height:220px;
-  margin: 5%;
+  margin: 1%;
 }
 
 .has-accent {
   border: 1px dashed pink;
 }
+
+
+
 

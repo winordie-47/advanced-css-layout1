@@ -1,9 +1,4 @@
 /* Universal settings*/
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 93ec7cf2e469f35de66128a97b4714638de4d54a
 a {
   font-weight:bold;
   text-decoration:none;
@@ -11,10 +6,10 @@ a {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
-@media only screen and (max-width: 480px) {
-  h1 {font-size: 2em;
+@media only screen and (min-width: 640px) {
+  h1 {font-size: 3em;
   }
 }
 
@@ -26,14 +21,14 @@ p {
   font-family: 'Grundschrift';
   font-weight: normal;
   font-style: normal;
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 640px) {
   p {font-family: 'Grundschrift';
   font-weight: normal;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.6em;
   }
 }
 
