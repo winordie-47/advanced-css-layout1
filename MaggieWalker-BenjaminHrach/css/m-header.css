@@ -1,6 +1,6 @@
 /* HEADER STYLES*/
 .page-heading {
-  text-align: left;
+  text-align: center;
   font-size: 1.4em;
   padding-top:1em;
   text-transform: uppercase;
@@ -15,13 +15,13 @@
 }
 
 .m-navigation-list--link {
-  padding: 0.2em;
+  /*padding: 0.2em;*/
   text-decoration: none;
 }
 
 .m-navigation-list--item {
   font-family: 'Aller', sans-serif;
   display: inline;
-  padding: 1em;
+  padding: 0.5em;
   font-size: 1em;
 }
