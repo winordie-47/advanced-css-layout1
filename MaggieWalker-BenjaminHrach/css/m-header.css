@@ -1,5 +1,27 @@
+/* HEADER STYLES*/
 .page-heading {
   text-align: left;
   font-size: 1.4em;
+  padding-top:1em;
   text-transform: uppercase;
+}
+
+/* NAV STYLES*/
+.m-nav {
+  text-transform: uppercase;
+  padding-top: 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.m-navigation-list--link {
+  padding: 0.2em;
+  text-decoration: none;
+}
+
+.m-navigation-list--item {
+  font-family: 'Aller', sans-serif;
+  display: inline;
+  padding: 1em;
+  font-size: 1em;
 }
